@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>خدمات درمانی</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/custom.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+<!-- navbar --> 
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button
+          type="button"
+          class="navbar-toggle collapsed"
+          data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false"
+        >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" onClick="window.location.reload();" name="title" href="#">تشخیص بیماری</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a onclick="window.location.href='https://who.int';" href="#">World Health Organization</a></li>
+          <li class="dropdown">
+            <a
+              href="#"class="dropdown-toggle"
+              data-toggle="dropdown"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >لینک های سایت چمران<span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu">
+                <li><a onclick="window.location.href='https://p-rasht.tvu.ac.ir';" href="#">سایت چمران</a></li>
+                <li><a onclick="window.location.href='https://bustan.tvu.ac.ir/';" href="#">بوستان</a></li>
+                <li><a onclick="window.location.href='https://t.me/chamranrashttvu';" href="#">تلگرام دانشگاه</a></li>
+              </ul>
+            </li>
+            <li><a onclick="window.location.href='pages/about.html';" href="#">اطلاعات من</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <center>
+      <div class="ui form">
+        <div class="inline fields">
+          <label class="question">آیا بیماری فیزیکی دارید؟</label>
+          <div class="field">
+            <div class="ui_radio_checkbox">
+              <input type="radio" name="q1" id="q011" >
+              <label>بله</label>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui_radio_checkbox">
+              <input type="radio" name="q1" id="q012">
+              <label>خیر</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </center>
+    <center>
+      <div class="ui form">
+        <div class="inline fields">
+          <label class="question">آیا بیماری ذهنی دارید؟</label>
+          <div class="field">
+            <div class="ui_radio_checkbox">
+              <input type="radio" name="q2" id="q021" >
+              <label>بله</label>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui_radio_checkbox">
+              <input type="radio" name="q2" id="q022">
+              <label>خیر</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </center>
+    <center>
+      <button type="button" class="btn btn-primary" name="save" onclick="save()">ذخیره</button> 
+    </center>
+    <!-- scripts --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
