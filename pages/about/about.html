@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>درباره من</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!---Common css---->
+    <link href="css/custom.css" rel="stylesheet" />
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <!----Media queries css--->
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="css/theme1024.css" rel="stylesheet" type="text/css" />
+    <link href="css/theme990.css" rel="stylesheet" type="text/css" />
+    <link href="css/theme768.css" rel="stylesheet" type="text/css" />
+    <link href="css/theme480.css" rel="stylesheet" type="text/css" />
+    <link href="css/theme320.css" rel="stylesheet" type="text/css" />
+    <link href="css/theme319.css" rel="stylesheet" type="text/css" />
+    <link href="css/quickweb.css" rel="stylesheet" type="text/css" />
+
+    <link href="css/slider_css.css" type="text/css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900' rel='stylesheet'
+        type='text/css' />
+
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/plugin.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" onClick="window.location.reload();" name="title" href="#"
+                    style="color:white;">اطلاعات من</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a onclick="window.location.href='https://who.int';" href="#">WHO Org</a></li>
+
+                    <li><a onclick="window.location.href='https://p-rasht.tvu.ac.ir';" href="#">سایت چمران</a></li>
+                    <li><a onclick="window.location.href='https://bustan.tvu.ac.ir/';" href="#">بوستان</a></li>
+                    <li><a onclick="window.location.href='https://t.me/chamranrashttvu';" href="#">تلگرام دانشگاه</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="contact-address section-padding color-light-white">
+        <div class="container">
+            <div class="col-12">
+                <div class="contact-box col-4">
+                    <div class="col-12 contact-icon"><i class="quickweb-icon-direction"></i></div>
+                    <div class="col-12 contact-title" style="color:black;">:آدرس<br /> رشت شهرداری پشت هتل اردیبهشت
+                        ک.انقلاب بن بست بیمه س.زیبا</div>
+
+                </div>
+                <div class="contact-box col-4">
+                    <div class="col-12 contact-icon"><i class="quickweb-icon-phone"></i></div>
+                    <div class="col-12 contact-title" style="color:black;">09368148899</div>
+
+                </div>
+                <div class="contact-box col-4">
+                    <div class="col-12 contact-icon"><i class="quickweb-icon-mail-alt"></i></div>
+                    <div class="col-12 contact-title" style="color:black;">nimahsn6@gmail.com</div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="contact section-padding color-white">
+        <div class="container">
+            <div class="main-title font-color-m-light">نیما حسینیان</div>
+            <p class="main-content" color="black;">کدملی:2581377836<br color="black;">شماره
+                دانشجویی:98111124302011</br><br><b>:با من در ارتباط باشید</b></br></p>
+
+            <form action="nimahsn6@gmail.com" method="post" enctype="text/plain">
+                <div class="col-12">
+                    <div class="textbox-set col-12">
+                        <div class="col-6 mb-6 textbox-box padding-tblr"><input type="text" class="textbox"
+                                placeholder="نام و نام خانوادگی*" id="name" /></div>
+                        <div class="col-6 mb-6 textbox-box padding-tblr"><input type="text" class="textbox"
+                                placeholder="مبایل*" /></div>
+                        <div class="col-12 textbox-box padding-tblr"><input type="text" class="textbox"
+                                placeholder="ایمیل*" id="email" /></div>
+
+                        <div class="col-12 textbox-box padding-tblr"><textarea class="col-12 textbox"
+                                placeholder="متن مورد نظر*" style="height:100px;padding:10px 0px;resize:none;"
+                                id="message"></textarea></div>
+
+                        <div class="send padding-lr"><button style="background-color: #d81919; border-color: #d81919;"
+                                id="send_email" value="Send" class="view-template"
+                                style="border:none;border-bottom: 2px solid #d81919;"
+                                onclick="getCheck()">ارسال</button></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <center>
+        <section class="footer">
+            <div class="bottom-footer">
+                <div class="container">
+
+                    <div class="col-12 creator" style="padding-top:25px;">
+                        <div class="col-6 copyright">2023 All Rights Reserved by Divergent.</div>
+                        <div class="col-6 design-by">
+                            <div class="col-8" style="color: #E5E5E5;font-weight: 100;font-size: 15px;">Made by <i <div
+                                    class="col 4footer-logo" style:"white;" font-size:"30px;"><b> DivergentArts</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </center>
+    <!-- scripts -->
+    <script type="text/javascript">
+        thumb_slider({
+
+            thumbs_to_show: 1,
+            thumbs_to_move: 1,
+            thumbs_width: 0,
+            thumbs_count: 0,
+            timeout: 10000,
+            parent_id: "main_slider",
+            container_class: "thumb_slider",
+            thumb_class: "thumbs",
+            spacing: 0,
+            processing: false,
+            hover: false,
+            next_class: "next",
+            prev_class: "prev",
+            timer: setTimeout(function () { })
+
+        });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

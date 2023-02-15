@@ -1,0 +1,385 @@
+/*this is the css file for the website*/
+
+/*this is the css for the navbar*/
+.navbar {
+  margin-bottom: 1;
+  border-radius: 12px;
+}
+
+/*this is the css for the body*/
+body {
+ 
+top: 0px;
+margin:3px auto;
+z-index: 100000;
+width: 100%;
+height: 100%;
+background: #667db6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+overflow-y: scroll;
+
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/*this is the css for the h1 and h2*/
+h1,
+h2 {
+  font-weight: bold;
+}
+
+/*this is the css for the p*/
+p {
+  font-size: 20px;
+  color: #ffffff;
+}
+.navbar-brand{
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  text-align: right;
+}
+.title
+{
+  font-weight: bold;
+  color: white;
+}
+
+
+/*this is the css for the jumbotron*/
+.jumbotron {
+  background: #000000;
+  color: white;
+  text-align: center;
+}
+.jumbotron p {
+  color: white;
+  font-size: 26px;
+}
+
+/*this is the css for the button*/
+.btn-primary {
+  color: #fff;
+  background-color: transparent;
+  border-color: white;
+  margin-bottom: 5px;
+}
+.btn-primary:hover {
+  color: #000000;
+  background-color: white;
+  border-color: white;
+}
+
+/*this is the css for the navbar*/
+.navbar-inverse {
+  background: #000000;
+  border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+  color: #f7f7f7;
+  font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+  background: #000000;
+}
+
+/*this is the css for the dropdown menu*/
+.dropdown-menu {
+  background: #2e2f31;
+  color: white;
+  border-radius: 0;
+  border: 0;
+  text-align: right;
+}
+
+.dropdown-menu li a {
+  padding: 10px;
+  color: white;
+}
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+  background: #557ea3;
+  color: white;
+}
+
+/*this is the css for the call to action*/
+.call-to-action {
+  text-align: center;
+}
+.call-to-action p {
+  margin-bottom: 30px;
+  font-family: sans-serif;
+}
+.who, .dropdown-toggle , .et
+{
+  text-align: right;
+}
+.who a :hover
+{
+  background: #2e2f31;
+}
+.footer
+{
+  clear: both;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 115px;
+ background: #000000;
+}
+.flash
+{
+  
+  float: right;
+}
+
+ 
+  }
+  @media only screen and (min-width :1024px) {
+    .container1 {
+        width: 1024px;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+        text-align: center;
+        
+    }
+}
+
+@media only screen and (min-width :990px) and (max-width :1023px) {
+    .container1 {
+        width: 990px;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width :768px) and (max-width :989px) {
+    .container1 {
+        width: 768px;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width :480px) and (max-width :767px) {
+    .container1 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width :320px) and (max-width :479px) {
+    .container1 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width :320px) {
+    .container1 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
+.about-image img {
+        box-sizing: border-box
+    }
+    .about-image img {
+      padding: 0 15px;
+      width: 45%
+  }
+  .padding-lr {
+    padding: 0 15px
+    ;
+        text-align: center;
+}
+.content-box {
+  padding: 15px 0;
+  font-weight: 300;
+  line-height: 24px;
+  font-size: 15px;
+  letter-spacing: .1px;
+  word-spacing: .5px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.801);
+  text-align: right;
+}
+.col-8 {
+  width: 66.66666667%
+}
+.col-4 {
+  width: 33.33333333%
+}
+.section-padding {
+  padding: 50px 0;
+  text-align: center;
+}
+@media only screen and (max-width :767px) {
+
+  .container1,
+  .mb-12 {
+      width: 100%;
+      text-align: center;
+  }
+
+  .section-padding {
+      padding: 20px 0;
+      text-align: center;
+  }
+
+  [class*=col-] {
+      content: "";
+      width: 100%;
+      text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .about-image { float: none;  width: 768px; display:block;}
+}
+
+.sub-title {
+  font-size: 20px;
+  padding: 0;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #000;
+  font-weight: bolder;
+  text-align: center;
+}
+.sub-title {
+  
+  text-align: center;
+  margin-top: 50px
+}
+div,
+section,
+span {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+}
+[class*=col-8] {
+  float: left
+}
+
+[class*=col-4] {
+  float: left;
+  }
+.col4footer-logo
+{
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.hr
+{
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: rgb(72, 58, 255);
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+.hr:after
+{
+  display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: rgb(72, 58, 255);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.question
+{
+font-size: 22px;
+margin-top: 1cm;
+}
+
+/*this is the css for the glyphicon*/
+.glyphicon-large {
+  font-size: 100px;
+}
+.inline-fields{
+  font: size 20px; ;
+}
+.field{
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 2px solid rgb(46, 45, 45);
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,
+    0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0, 0
+    0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box
+      box-shadow ease-in-out 0.15s;
+      -o-transition: border-color ease-in-out 0.15s, box
+      box-shadow ease-in-out 0.15s;
+      transition: border-color ease-in-out 0.15s, box
+      box-shadow ease-in-out 0.15s;
+      margin-bottom: 10px;
+}
+.collapsible {
+  background-color: rgb(17, 0, 255);
+  color: white;
+  cursor: pointer;
+  
+  width: 100%;
+  
+  text-align: right;
+  outline: none;
+  font-size: 15px;
+  border: 2px solid rgb(17, 0, 255);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.active, .collapsible:hover {
+  background-color: rgb(20, 0, 133);
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: left;
+  margin-left: 5px;
+  text-align: right;
+
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0  18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: #4b3e3e;
+  text-align: right;
+  border: 0 solid rgb(17, 0, 255);
+  border-radius: 10px;
+  
+}

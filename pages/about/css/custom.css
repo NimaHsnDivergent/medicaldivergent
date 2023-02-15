@@ -1,0 +1,103 @@
+/*this is the css file for the website*/
+* {
+  text-align: center;
+}
+/*this is the css for the navbar*/
+.navbar {
+    margin-bottom: 0;
+  }
+  
+  /*this is the css for the body*/
+  body {
+    background: #3e4649;
+    color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .main-content {
+    color: #000;
+  }
+  
+  
+  /*this is the css for the h1 and h2*/
+  h1,
+  h2 {
+    font-weight: bold;
+  }
+  
+  /*this is the css for the p*/
+  p {
+    font-size: 16px;
+    color: #cdcdcd;
+  }
+  
+  /*this is the css for the jumbotron*/
+  .jumbotron {
+    background: #27a967;
+    color: white;
+    text-align: center;
+  }
+  
+  .jumbotron p {
+    color: white;
+    font-size: 26px;
+  }
+  
+  /*this is the css for the button*/
+  .btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: white;
+    margin-bottom: 5px;
+  }
+  
+  .btn-primary:hover {
+    color: #27a967;
+    background-color: white;
+    border-color: rgb(82, 72, 72);
+  }
+  
+  /*this is the css for the navbar*/
+  .navbar-inverse {
+    background: #2e2f31;
+    border: 0;
+  }
+  
+  .navbar-inverse .navbar-nav li a {
+    color: #f7f7f7;
+    font-size: 16px;
+  }
+  
+  .navbar-inverse .navbar-nav li a:hover {
+    background: #c42e2e;
+  }
+  
+  /*this is the css for the dropdown menu*/
+  .dropdown-menu {
+    background: #2e2f31;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  .dropdown-menu li a {
+    padding: 10px;
+  }
+  
+  .navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+    background: #2c463c;
+  }
+  
+  /*this is the css for the call to action*/
+  .call-to-action {
+    text-align: center;
+  }
+  
+  .call-to-action p {
+    margin-bottom: 30px;
+    font-family: sans-serif;
+  }
+  
+  /*this is the css for the glyphicon*/
+  .glyphicon-large {
+    font-size: 100px;
+  }
